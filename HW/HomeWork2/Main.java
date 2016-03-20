@@ -8,7 +8,7 @@ public class Main {
 
         shop.setName("City Music");
         shop.setAddress("Shevchenko Boulevard,352");
-        shop.setNumberGuitarsOrder(1);
+        shop.setNumberGuitarsOrder(2);
 
         Guitar guitar = new Guitar();
 
@@ -18,7 +18,9 @@ public class Main {
         guitar.setManufacturer("USA");
         guitar.setNumberOfString(6);
         guitar.setPrice(20331);
-
+        
+        shop.addGuitar(guitar);
+        
         guitar = new Guitar();
 
         guitar.setType("Bass guitar");
@@ -27,11 +29,10 @@ public class Main {
         guitar.setManufacturer("Japan");
         guitar.setNumberOfString(4);
         guitar.setPrice(6264);
-
-        System.out.println(Shop.toString());
-
         
+        shop.addGuitar(guitar);
 
+        System.out.println(shop.toString());
 
     }
 }
