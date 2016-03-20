@@ -72,7 +72,7 @@ public class Guitar {
         }
 
         public String toString() {
-            String result = "Type: " + this.type + "\nBrand: " + this.brand + "\nManufacturer: " + this.manufacturer + "\nNumber of String: " + this.numberOfstring + "\nModel: " + this.model + "\nPrice in hrivnia : " + this.price;
+            String result = "Тип: " + this.type + "\nБренд: " + this.brand + "\nВиробник: " + this.manufacturer + "\nКількість струн: " + this.numberOfstring + "\nМодель: " + this.model + "\nЦіна в гривнях : " + this.price;
             return result;
         }
 }
