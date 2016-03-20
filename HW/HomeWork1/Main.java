@@ -1,3 +1,4 @@
+
 package HW1;
 
 public class Main {
@@ -12,6 +13,10 @@ public class Main {
         guitar.setPrice(20331);
 
         System.out.println(guitar.toString());
+
+        Reader r = new Reader();
+        r.Scan();
+
 
     }
 }
