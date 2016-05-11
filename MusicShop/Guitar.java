@@ -1,3 +1,11 @@
+public class Guitar{
+protected String manufacturer;
+protected int numberOfstring;
+protected String type;
+protected String model;
+protected int price;
+protected String brand;
+
  public void setManufacturer(String manufacturer) {
 
         this.manufacturer = manufacturer;
