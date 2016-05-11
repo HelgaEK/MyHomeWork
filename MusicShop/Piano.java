@@ -1,10 +1,8 @@
 
-public class Piano {
-    protected String brand;
-    protected String manufacturer;
-    protected String model;
+public class Piano extends Guitar  {
+
     protected int numberOfkeys;
-    protected int price;
+ 
 
 
 
@@ -17,7 +15,14 @@ public class Piano {
 
         this.brand = brand;
     }
+    public String getType(){
+        return type;
+    }
 
+    public void set Type(String type){
+        this.type = type;
+    }
+    
     public String getManufacturer() {
 
         return manufacturer;
@@ -59,10 +64,9 @@ public class Piano {
 
     public Piano(String brand, String manufacturer, int numberOfkeys, String model, int price) {
 
-        this.brand = brand;
-        this.manufacturer = manufacturer;
+       
         this.numberOfkeys = numberOfkeys;
-        this.price = price;
+       
     }
 
     public String toString() {
